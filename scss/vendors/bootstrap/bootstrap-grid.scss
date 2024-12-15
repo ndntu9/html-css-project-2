@@ -10,8 +10,6 @@ $include-column-box-sizing: true !default;
 @import "variables-dark";
 @import "maps";
 
-@debug $grid-gutter-width;
-
 @import "mixins/breakpoints";
 @import "mixins/container";
 @import "mixins/grid";
