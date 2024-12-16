@@ -153,6 +153,12 @@ a {
   text-decoration: none;
 }
 
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
 .logo {
   color: #171100;
   font-family: "Sen";
@@ -374,6 +380,101 @@ a {
   font-size: 1.6rem;
   line-height: 1.75;
   margin-left: auto;
+}
+
+.course {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.course__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course__desc {
+  width: 458px;
+  margin-top: 16px;
+}
+.course__btn-group {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.course__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffb900;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 300ms;
+}
+.course__btn .arrow-icon {
+  filter: brightness(0) saturate(100%) invert(71%) sepia(33%) saturate(1547%) hue-rotate(358deg) brightness(101%) contrast(107%);
+  transition: 300ms;
+}
+.course__btn:hover {
+  background: #ffb900;
+}
+.course__btn:hover .arrow-icon {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(190deg) brightness(101%) contrast(99%);
+}
+.course .list__course {
+  margin-top: 55px;
+}
+.course__item {
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+  transition: 400ms;
+}
+.course__item:hover {
+  border-color: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.course .item__thumb {
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+.course .item__info {
+  padding: 16px 22px 22px 22px;
+}
+.course .item__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course .item__title {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.course .item__score {
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+.course .item__desc {
+  font-size: 1.4rem;
+  line-height: 1.85;
+}
+.course .item__act {
+  margin-top: 12px;
+}
+.course .item__price {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.course .item__btn {
+  padding: 12.5px 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
